@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #eef2f7;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    color: #243b64;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 25px auto;
+}
+
+img {
+    width: 70%;
+    max-width: 700px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #999;
+}
+
+button {
+    background: #243b64;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background: #4268a8;
+}
+
+#counter {
+    font-size: 18px;
+    color: #243b64;
+}
